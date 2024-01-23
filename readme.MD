@@ -1,5 +1,8 @@
 ## Bat-Signal Activated: Your Code Needs Justice (and Bug Spray)
 
+![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
 **Listen up, criminals**, I mean, **brilliant but misguided scientists**. You've been tinkering in your labs, brewing code concoctions of questionable quality. But fear not, the **Dark Knight of Development** has arrived. I've open-sourced this mess, not because I'm feeling charitable (cough, publicity, cough), but because a city with buggy code is a city at risk.
 
 **Think of your code like Gotham**. Quirky characters, unexpected twists, and enough potential to save the world...or plunge it into darkness. My job? To shine the Bat-Spotlight on the flaws, the vulnerabilities, the logic bombs ticking in your digital alleyways.
@@ -16,6 +19,3 @@ Now get to work, **coders of the night**. The clock is ticking, and the Riddler'
 
 **P.S.** If you find any kryptonite in here, it's not mine. I swear I haven't been tangoing with Superman lately.
 
-
-
-Hope this is more in line with what you were looking for! It's always fun to channel different iconic characters, and Batman definitely brings a different flavor to the open-source pep talk. Let me know if you have any other ideas!
