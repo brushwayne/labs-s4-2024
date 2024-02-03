@@ -1,8 +1,11 @@
-read A
-until [ $A -gt 10 ]
-    do
-        echo $A
-        A=`expr $A + 1`
-    done
+for x in 1 2 3 4 5
+do
+    echo $x
+done
 
+COLORS="red green blue"
 
+for cl in $COLORS
+do
+    echo $cl
+done
