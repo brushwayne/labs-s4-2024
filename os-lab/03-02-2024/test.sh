@@ -1,19 +1,19 @@
 read A
 read B
 
-if [ $A -gt $B ]
-then
-    echo $A is greater
+case $A in
 
-# if block in an if block, ie nested if
-if []
-then
-    elif
-    then
-fi
+    # ;; is for ending a case; ie break synonom
 
-elif [ $B -gt $A ]
-then
-    echo $B is greater
-fi
+
+
+    1) echo the value is 1;;
+    2) echo the value is 2;;
+    3) echo the value is 3;;
+
+    *) echo this is the deafult case
+
+        # *) is the default case
+esac
+
 
