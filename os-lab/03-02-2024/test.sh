@@ -6,7 +6,7 @@ case $A in
     # ;; is for ending a case; ie break synonom
 
 
-
+    # < val) do this >
     1) echo the value is 1;;
     2) echo the value is 2;;
     3) echo the value is 3;;
