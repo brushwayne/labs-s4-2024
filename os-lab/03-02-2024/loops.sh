@@ -1,11 +1,16 @@
-for x in 1 2 3 4 5
+#array
+#
+# array indexing starts from 1 in zsh shell
+#
+arr=(1 2 3 "ABC" 4.5 "X")
+
+for item in arr
 do
-    echo $x
+    echo $item
 done
 
-COLORS="red green blue"
+echo ${#arr[*]} #length of entire array
+echo ${#arr[1]} #length of first element
+echo ${arr[1]} #first element
 
-for cl in $COLORS
-do
-    echo $cl
-done
+
