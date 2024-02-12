@@ -9,7 +9,7 @@ class p2 {
         Utility utility = new Utility();
         
         for (int i = 0; i < count; i++) {
-            System.out.printf("%d ", utility.add(i, 2));
+            System.out.printf("%d ", Utility.add(i, 2));
         }
         System.out.printf("\npi: %f, e: %f", constant.pi, constant.e);
     }
