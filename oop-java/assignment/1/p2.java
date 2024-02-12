@@ -6,7 +6,6 @@ class p2 {
         final int count = 3;
 
         Constants constant = new Constants();
-        Utility utility = new Utility();
         
         for (int i = 0; i < count; i++) {
             System.out.printf("%d ", Utility.add(i, 2));
