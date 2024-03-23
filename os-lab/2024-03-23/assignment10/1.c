@@ -26,7 +26,7 @@ int main() {
         exit(0);
     } else {
         close(pipe_fds[0]);
-        const char* message = "I am Baap the original parent";
+        const char* message = "I am Father the original parent";
         write(pipe_fds[1], message, strlen(message) + 1);
         close(pipe_fds[1]);
         wait(NULL);
