@@ -16,6 +16,11 @@ int main() {
     int num1 = 10, num2 = 5;
     int fds[4][2];
 
+    // fds -> file descriptor
+    // fds[k][0] is for read
+    // fds[k][1] is for write
+    // k is the pipe number
+
     for (int i = 0; i < 4; i++) {
         pipe(fds[i]);
     }

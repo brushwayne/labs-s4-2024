@@ -13,17 +13,20 @@ int main() {
     int pipe_fds[2];
     pipe(pipe_fds);
 
+    // 0 is for read
+    // 1 is for write
+
     pid_t pid = fork();
     if (pid == 0) {
         close(pipe_fds[1]);
         char buffer[100];
         read(pipe_fds[0], buffer, sizeof(buffer));
-        printf("Child: %s\n", buffer);
+        printf("Child says: %s\n", buffer);
         close(pipe_fds[0]);
         exit(0);
     } else {
         close(pipe_fds[0]);
-        const char* message = "Hello from parent";
+        const char* message = "I am Baap the original parent";
         write(pipe_fds[1], message, strlen(message) + 1);
         close(pipe_fds[1]);
         wait(NULL);
